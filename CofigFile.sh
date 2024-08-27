@@ -7,7 +7,7 @@ SYSFOLDER="experiment"
 #Name of Test Folder
 TESTFOLDER="test"
 #Commit Sha
-NCOMMIT="36b3aa268f19a814bf1ed2d2834a03df0ba96949"
+NCOMMIT="20a2fafec8a686368508fec6b454e3da77dcc8f5"
 
 #PATH System
 PATHSYS="${PWD}/database/${SYSFOLDER}/"
