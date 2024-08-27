@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # #repository URL
-REPGIT="https://github.com/sqlite/sqlite.git"
+REPGIT="https://github.com/abdulxs/Experiment"
 #Name of System Folder
-SYSFOLDER="sqlite"
+SYSFOLDER="experiment"
 #Name of Test Folder
 TESTFOLDER="test"
 #Commit Sha
-NCOMMIT="6fdac751277981a8fa4db8eda339b9c140140bd7"
+NCOMMIT="5d6753e42c659b615c71abc50e143869ccac2307"
 
 #PATH System
 PATHSYS="${PWD}/database/${SYSFOLDER}/"

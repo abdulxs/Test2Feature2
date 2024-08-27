@@ -22,21 +22,23 @@ public class App extends Thread{
 
     //private final static String REPO_PATH = "C:\\Users\\gabil\\Desktop\\ECCO_Work\\test-featureid";
     //private final static String REPO_PATH = "C:\\Users\\gabil\\Desktop\\ECCO_Work\\TestMarlin\\Marlin\\Marlin\\Marlin";
-    private final static String REPO_PATH = "C:\\Users\\gabil\\Desktop\\PHD\\Mining\\systems\\Sqlite - Copy\\sqlite";
+    //pass local clone link below, use online git link in config file
+    private final static String REPO_PATH = "/Users/mac/Documents/Rambus/Experiment";
     //private final static String REPO_PATH = "C:\\Users\\gabil\\Desktop\\ECCO_Work\\spls\\spls\\sqllite\\sqlite";
     //private final static String REPO_PATH = "C:\\Users\\gabil\\Desktop\\ECCO_Work\\spls\\spls\\libssh-mirror\\libssh-mirror";
     // "C:\\obermanndavid\\git-to-ecco\\test_repo5"
     // "C:\\obermanndavid\\git-ecco-test\\test_featureid\\betaflight"
     // "C:\\obermanndavid\\git-ecco-test\\test_featureid\\Marlin"
     //private final static String CSV_PATH = "C:\\Users\\gabil\\Desktop\\results\\results.csv";
-    private final static String CSV_PATH = "C:\\Users\\gabil\\Desktop\\PHD\\Mining\\systems\\feature_identification\\results_sqlite3.13.0.csv";
-    private final static String FEATURES_PATH = "C:\\Users\\gabil\\Desktop\\PHD\\Mining\\systems\\feature_identification\\sqlite-versions\\3.13.0\\";
+    private final static String CSV_PATH = "/Users/mac/Documents/Rambus//systems/feature_identification/results_experiment.csv";
+    private final static String FEATURES_PATH = "/Users/mac/Documents/Rambus/feature_identification/experiment/features/";
     private final static boolean DISPOSE = true;
     private final static boolean DEBUG = true;
     private final static int MAX_COMMITS = 20000;
     private final static boolean EVERYCOMMIT = false;
-    private final static int STARTCOMMIT = 15063;
-    private final static int ENDCOMMIT = 15067;
+    //start and endcommit commented out temporarily to see if it breaks the code or they are not needed on small repos
+    //private final static int STARTCOMMIT = 15063;
+    //private final static int ENDCOMMIT = 15067;
     private final static int EVERY_NTH_COMMIT = 1;
     private final static boolean MAX_COMMITS_ENA = true;
     private final static boolean PARALLEL = false;
