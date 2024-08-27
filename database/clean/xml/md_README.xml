@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="md_README" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>Simple C Program with Python Tests</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="md_README_1autotoc_md0"/></para>
+<sect1 id="md_README_1autotoc_md1">
+<title>Overview</title><para>This is a simple C program that implements basic arithmetic operations and string manipulation functions. It includes Python unit tests to validate the functionality.</para>
+</sect1>
+<sect1 id="md_README_1autotoc_md2">
+<title>Files Structure</title><para><itemizedlist>
+<listitem><para><computeroutput>src/</computeroutput>: Contains the C source files.</para>
+</listitem><listitem><para><computeroutput>include/</computeroutput>: Contains the header files.</para>
+</listitem><listitem><para><computeroutput>test/</computeroutput>: Contains the Python test files.</para>
+</listitem><listitem><para><computeroutput>Makefile</computeroutput>: Build and test instructions.</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="md_README_1autotoc_md3">
+<title>How to Build and Test</title><sect2 id="md_README_1autotoc_md4">
+<title>Step 1: Compile the Program</title><para>```sh make </para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

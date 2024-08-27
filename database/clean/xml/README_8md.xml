@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="README_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Simple<sp/>C<sp/>Program<sp/>with<sp/>Python<sp/>Tests</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>is<sp/>a<sp/>simple<sp/>C<sp/>program<sp/>that<sp/>implements<sp/>basic<sp/>arithmetic<sp/>operations<sp/>and<sp/>string<sp/>manipulation<sp/>functions.<sp/>It<sp/>includes<sp/>Python<sp/>unit<sp/>tests<sp/>to<sp/>validate<sp/>the<sp/>functionality.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Files<sp/>Structure</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`src/`:<sp/>Contains<sp/>the<sp/>C<sp/>source<sp/>files.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`include/`:<sp/>Contains<sp/>the<sp/>header<sp/>files.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`test/`:<sp/>Contains<sp/>the<sp/>Python<sp/>test<sp/>files.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`Makefile`:<sp/>Build<sp/>and<sp/>test<sp/>instructions.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>How<sp/>to<sp/>Build<sp/>and<sp/>Test</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Step<sp/>1:<sp/>Compile<sp/>the<sp/>Program</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">make</highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

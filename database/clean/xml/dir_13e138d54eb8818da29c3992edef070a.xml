@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_13e138d54eb8818da29c3992edef070a" kind="dir">
+    <compoundname>test</compoundname>
+    <innerfile refid="test__arithmetic_8py">test_arithmetic.py</innerfile>
+    <innerfile refid="test__string__manipulation_8py">test_string_manipulation.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/"/>
+  </compounddef>
+</doxygen>

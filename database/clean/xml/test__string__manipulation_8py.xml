@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="test__string__manipulation_8py" kind="file" language="Python">
+    <compoundname>test_string_manipulation.py</compoundname>
+    <innerclass refid="classtest__string__manipulation_1_1TestStringManipulation" prot="public">test_string_manipulation::TestStringManipulation</innerclass>
+    <innernamespace refid="namespacetest__string__manipulation">test_string_manipulation</innernamespace>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacetest__string__manipulation_1a3c1a150e29ab285e8f7e35687125a6ac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>test_string_manipulation.lib</definition>
+        <argsstring></argsstring>
+        <name>lib</name>
+        <qualifiedname>test_string_manipulation.lib</qualifiedname>
+        <initializer>=  ctypes.CDLL(&apos;./libsimple_program.so&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/test_string_manipulation.py" line="5" column="1" bodyfile="test/test_string_manipulation.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacetest__string__manipulation" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>unittest</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ctypes</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Load<sp/>the<sp/>shared<sp/>library<sp/>into<sp/>ctypes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespacetest__string__manipulation_1a3c1a150e29ab285e8f7e35687125a6ac" refkind="member"><highlight class="normal">lib<sp/>=<sp/>ctypes.CDLL(</highlight><highlight class="stringliteral">&apos;./libsimple_program.so&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classtest__string__manipulation_1_1TestStringManipulation" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtest__string__manipulation_1_1TestStringManipulation" kindref="compound">TestStringManipulation</ref>(unittest.TestCase):</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9" refid="classtest__string__manipulation_1_1TestStringManipulation_1a533b71af58e8e55b6e9124adaa5b375e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtest__string__manipulation_1_1TestStringManipulation_1a533b71af58e8e55b6e9124adaa5b375e" kindref="member">test_string_length</ref>(self):</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/>lib.string_length(b</highlight><highlight class="stringliteral">&quot;Hello<sp/>World!&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.assertEqual(result,<sp/>12)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13" refid="classtest__string__manipulation_1_1TestStringManipulation_1ae978e237dc4c683d96f966966f37c42d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtest__string__manipulation_1_1TestStringManipulation_1ae978e237dc4c683d96f966966f37c42d" kindref="member">test_count_vowels</ref>(self):</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/>lib.count_vowels(b</highlight><highlight class="stringliteral">&quot;Hello<sp/>World!&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.assertEqual(result,<sp/>3)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>__name__<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;__main__&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>unittest.main()</highlight></codeline>
+    </programlisting>
+    <location file="test/test_string_manipulation.py"/>
+  </compounddef>
+</doxygen>

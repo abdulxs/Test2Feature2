@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="main_8c" kind="file" language="C++">
+    <compoundname>main.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="arithmetic_8h" local="yes">arithmetic.h</includes>
+    <includes refid="string__manipulation_8h" local="yes">string_manipulation.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>arithmetic.h</label>
+        <link refid="arithmetic_8h"/>
+      </node>
+      <node id="4">
+        <label>string_manipulation.h</label>
+        <link refid="string__manipulation_8h"/>
+      </node>
+      <node id="1">
+        <label>src/main.c</label>
+        <link refid="main_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main.c" line="5" column="5" bodyfile="src/main.c" bodystart="5" bodyend="15"/>
+        <references refid="arithmetic_8h_1aa99823a0fc8313c9c32541ce768fb801" compoundref="arithmetic_8c" startline="3" endline="5">add</references>
+        <references refid="string__manipulation_8h_1ac7bb32c3b8f9721326aeea9c619f94a0" compoundref="string__manipulation_8c" startline="11" endline="22">count_vowels</references>
+        <references refid="string__manipulation_8h_1a1e5d49ab95107d8d895c9020cb053d3f" compoundref="string__manipulation_8c" startline="3" endline="9">string_length</references>
+        <references refid="arithmetic_8h_1a470a2cec9c256d196c0e6b8fc7a6ec36" compoundref="arithmetic_8c" startline="7" endline="9">subtract</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="arithmetic_8h" kindref="compound">arithmetic.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="string__manipulation_8h" kindref="compound">string_manipulation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>10,<sp/>b<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Addition:<sp/>%d<sp/>+<sp/>%d<sp/>=<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>a,<sp/>b,<sp/><ref refid="arithmetic_8h_1aa99823a0fc8313c9c32541ce768fb801" kindref="member">add</ref>(a,<sp/>b));</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Subtraction:<sp/>%d<sp/>-<sp/>%d<sp/>=<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>a,<sp/>b,<sp/><ref refid="arithmetic_8h_1a470a2cec9c256d196c0e6b8fc7a6ec36" kindref="member">subtract</ref>(a,<sp/>b));</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Hello<sp/>World!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;String<sp/>Length:<sp/>%s<sp/>=<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>str,<sp/><ref refid="string__manipulation_8h_1a1e5d49ab95107d8d895c9020cb053d3f" kindref="member">string_length</ref>(str));</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Vowel<sp/>Count:<sp/>%s<sp/>=<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>str,<sp/><ref refid="string__manipulation_8h_1ac7bb32c3b8f9721326aeea9c619f94a0" kindref="member">count_vowels</ref>(str));</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/main.c"/>
+  </compounddef>
+</doxygen>

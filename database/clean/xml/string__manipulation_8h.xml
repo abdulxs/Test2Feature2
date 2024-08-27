@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="string__manipulation_8h" kind="file" language="C++">
+    <compoundname>string_manipulation.h</compoundname>
+    <includedby refid="main_8c" local="yes">src/main.c</includedby>
+    <includedby refid="string__manipulation_8c" local="yes">src/string_manipulation.c</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>include/string_manipulation.h</label>
+        <link refid="string__manipulation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="3">
+        <label>src/string_manipulation.c</label>
+        <link refid="string__manipulation_8c"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="string__manipulation_8h_1a1e5d49ab95107d8d895c9020cb053d3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int string_length</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>string_length</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/string_manipulation.h" line="4" column="5" bodyfile="src/string_manipulation.c" bodystart="3" bodyend="9" declfile="include/string_manipulation.h" declline="4" declcolumn="5"/>
+        <referencedby refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="main_8c" startline="5" endline="15">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="string__manipulation_8h_1ac7bb32c3b8f9721326aeea9c619f94a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int count_vowels</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>count_vowels</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/string_manipulation.h" line="5" column="5" bodyfile="src/string_manipulation.c" bodystart="11" bodyend="22" declfile="include/string_manipulation.h" declline="5" declcolumn="5"/>
+        <referencedby refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="main_8c" startline="5" endline="15">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STRING_MANIPULATION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRING_MANIPULATION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="string__manipulation_8h_1a1e5d49ab95107d8d895c9020cb053d3f" kindref="member">string_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="string__manipulation_8h_1ac7bb32c3b8f9721326aeea9c619f94a0" kindref="member">count_vowels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="include/string_manipulation.h"/>
+  </compounddef>
+</doxygen>

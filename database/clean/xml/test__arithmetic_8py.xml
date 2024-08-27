@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="test__arithmetic_8py" kind="file" language="Python">
+    <compoundname>test_arithmetic.py</compoundname>
+    <innerclass refid="classtest__arithmetic_1_1TestArithmetic" prot="public">test_arithmetic::TestArithmetic</innerclass>
+    <innernamespace refid="namespacetest__arithmetic">test_arithmetic</innernamespace>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacetest__arithmetic_1a2adb33591beccc19363b9a8d88a7da56" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>test_arithmetic.lib</definition>
+        <argsstring></argsstring>
+        <name>lib</name>
+        <qualifiedname>test_arithmetic.lib</qualifiedname>
+        <initializer>=  ctypes.CDLL(&apos;./libsimple_program.so&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/test_arithmetic.py" line="5" column="1" bodyfile="test/test_arithmetic.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacetest__arithmetic" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>unittest</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ctypes</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Load<sp/>the<sp/>shared<sp/>library<sp/>into<sp/>ctypes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespacetest__arithmetic_1a2adb33591beccc19363b9a8d88a7da56" refkind="member"><highlight class="normal">lib<sp/>=<sp/>ctypes.CDLL(</highlight><highlight class="stringliteral">&apos;./libsimple_program.so&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classtest__arithmetic_1_1TestArithmetic" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtest__arithmetic_1_1TestArithmetic" kindref="compound">TestArithmetic</ref>(unittest.TestCase):</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9" refid="classtest__arithmetic_1_1TestArithmetic_1ad74e3ed61aad42fd3528d7d6e03013f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtest__arithmetic_1_1TestArithmetic_1ad74e3ed61aad42fd3528d7d6e03013f3" kindref="member">test_add</ref>(self):</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/>lib.add(5,<sp/>3)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.assertEqual(result,<sp/>8)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13" refid="classtest__arithmetic_1_1TestArithmetic_1a05ed230502e0c9b1201d6ced96ea10c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtest__arithmetic_1_1TestArithmetic_1a05ed230502e0c9b1201d6ced96ea10c9" kindref="member">test_subtract</ref>(self):</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/>lib.subtract(5,<sp/>3)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.assertEqual(result,<sp/>2)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>__name__<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;__main__&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>unittest.main()</highlight></codeline>
+    </programlisting>
+    <location file="test/test_arithmetic.py"/>
+  </compounddef>
+</doxygen>

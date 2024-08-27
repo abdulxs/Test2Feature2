@@ -1,0 +1,8 @@
+Commit Nr,TargetFile,FeatureName,FeatFrom,FeatTo
+1,include/arithmetic.h,BASE,0,7
+1,include/string_manipulation.h,BASE,0,7
+1,src/string_manipulation.c,BASE,0,22
+1,src/arithmetic.c,BASE,0,9
+1,src/main.c,BASE,0,15
+1,include/string_manipulation.h,BASE,1,7
+1,include/arithmetic.h,BASE,1,7

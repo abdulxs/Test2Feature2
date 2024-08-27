@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.12.0" xml:lang="en-US">
+  <compound refid="classtest__arithmetic_1_1TestArithmetic" kind="class"><name>test_arithmetic::TestArithmetic</name>
+    <member refid="classtest__arithmetic_1_1TestArithmetic_1ad74e3ed61aad42fd3528d7d6e03013f3" kind="function"><name>test_add</name></member>
+    <member refid="classtest__arithmetic_1_1TestArithmetic_1a05ed230502e0c9b1201d6ced96ea10c9" kind="function"><name>test_subtract</name></member>
+  </compound>
+  <compound refid="classtest__string__manipulation_1_1TestStringManipulation" kind="class"><name>test_string_manipulation::TestStringManipulation</name>
+    <member refid="classtest__string__manipulation_1_1TestStringManipulation_1a533b71af58e8e55b6e9124adaa5b375e" kind="function"><name>test_string_length</name></member>
+    <member refid="classtest__string__manipulation_1_1TestStringManipulation_1ae978e237dc4c683d96f966966f37c42d" kind="function"><name>test_count_vowels</name></member>
+  </compound>
+  <compound refid="namespacetest__arithmetic" kind="namespace"><name>test_arithmetic</name>
+    <member refid="namespacetest__arithmetic_1a2adb33591beccc19363b9a8d88a7da56" kind="variable"><name>lib</name></member>
+  </compound>
+  <compound refid="namespacetest__string__manipulation" kind="namespace"><name>test_string_manipulation</name>
+    <member refid="namespacetest__string__manipulation_1a3c1a150e29ab285e8f7e35687125a6ac" kind="variable"><name>lib</name></member>
+  </compound>
+  <compound refid="namespaceunittest" kind="namespace"><name>unittest</name>
+  </compound>
+  <compound refid="arithmetic_8h" kind="file"><name>arithmetic.h</name>
+    <member refid="arithmetic_8h_1aa99823a0fc8313c9c32541ce768fb801" kind="function"><name>add</name></member>
+    <member refid="arithmetic_8h_1a470a2cec9c256d196c0e6b8fc7a6ec36" kind="function"><name>subtract</name></member>
+  </compound>
+  <compound refid="string__manipulation_8h" kind="file"><name>string_manipulation.h</name>
+    <member refid="string__manipulation_8h_1a1e5d49ab95107d8d895c9020cb053d3f" kind="function"><name>string_length</name></member>
+    <member refid="string__manipulation_8h_1ac7bb32c3b8f9721326aeea9c619f94a0" kind="function"><name>count_vowels</name></member>
+  </compound>
+  <compound refid="README_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="requirements_8txt" kind="file"><name>requirements.txt</name>
+  </compound>
+  <compound refid="arithmetic_8c" kind="file"><name>arithmetic.c</name>
+    <member refid="arithmetic_8c_1aa99823a0fc8313c9c32541ce768fb801" kind="function"><name>add</name></member>
+    <member refid="arithmetic_8c_1a470a2cec9c256d196c0e6b8fc7a6ec36" kind="function"><name>subtract</name></member>
+  </compound>
+  <compound refid="main_8c" kind="file"><name>main.c</name>
+    <member refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="string__manipulation_8c" kind="file"><name>string_manipulation.c</name>
+    <member refid="string__manipulation_8c_1a1e5d49ab95107d8d895c9020cb053d3f" kind="function"><name>string_length</name></member>
+    <member refid="string__manipulation_8c_1ac7bb32c3b8f9721326aeea9c619f94a0" kind="function"><name>count_vowels</name></member>
+  </compound>
+  <compound refid="test__arithmetic_8py" kind="file"><name>test_arithmetic.py</name>
+    <member refid="namespacetest__arithmetic_1a2adb33591beccc19363b9a8d88a7da56" kind="variable"><name>lib</name></member>
+  </compound>
+  <compound refid="test__string__manipulation_8py" kind="file"><name>test_string_manipulation.py</name>
+    <member refid="namespacetest__string__manipulation_1a3c1a150e29ab285e8f7e35687125a6ac" kind="variable"><name>lib</name></member>
+  </compound>
+  <compound refid="md_README" kind="page"><name>md_README</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_13e138d54eb8818da29c3992edef070a" kind="dir"><name>test</name>
+  </compound>
+</doxygenindex>

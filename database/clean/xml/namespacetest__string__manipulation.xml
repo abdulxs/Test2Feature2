@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespacetest__string__manipulation" kind="namespace" language="Python">
+    <compoundname>test_string_manipulation</compoundname>
+    <innerclass refid="classtest__string__manipulation_1_1TestStringManipulation" prot="public">test_string_manipulation::TestStringManipulation</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacetest__string__manipulation_1a3c1a150e29ab285e8f7e35687125a6ac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>test_string_manipulation.lib</definition>
+        <argsstring></argsstring>
+        <name>lib</name>
+        <qualifiedname>test_string_manipulation.lib</qualifiedname>
+        <initializer>=  ctypes.CDLL(&apos;./libsimple_program.so&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/test_string_manipulation.py" line="5" column="1" bodyfile="test/test_string_manipulation.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/test_string_manipulation.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

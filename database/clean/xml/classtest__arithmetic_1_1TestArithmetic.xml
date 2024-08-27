@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classtest__arithmetic_1_1TestArithmetic" kind="class" language="Python" prot="public">
+    <compoundname>test_arithmetic::TestArithmetic</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">unittest.TestCase</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest__arithmetic_1_1TestArithmetic_1ad74e3ed61aad42fd3528d7d6e03013f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>test_arithmetic.TestArithmetic.test_add</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_add</name>
+        <qualifiedname>test_arithmetic.TestArithmetic.test_add</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/test_arithmetic.py" line="9" column="1" bodyfile="test/test_arithmetic.py" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classtest__arithmetic_1_1TestArithmetic_1a05ed230502e0c9b1201d6ced96ea10c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>test_arithmetic.TestArithmetic.test_subtract</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_subtract</name>
+        <qualifiedname>test_arithmetic.TestArithmetic.test_subtract</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/test_arithmetic.py" line="13" column="1" bodyfile="test/test_arithmetic.py" bodystart="13" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>test_arithmetic.TestArithmetic</label>
+        <link refid="classtest__arithmetic_1_1TestArithmetic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>unittest::TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>test_arithmetic.TestArithmetic</label>
+        <link refid="classtest__arithmetic_1_1TestArithmetic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>unittest::TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="test/test_arithmetic.py" line="7" column="1" bodyfile="test/test_arithmetic.py" bodystart="7" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classtest__arithmetic_1_1TestArithmetic_1ad74e3ed61aad42fd3528d7d6e03013f3" prot="public" virt="non-virtual"><scope>test_arithmetic::TestArithmetic</scope><name>test_add</name></member>
+      <member refid="classtest__arithmetic_1_1TestArithmetic_1a05ed230502e0c9b1201d6ced96ea10c9" prot="public" virt="non-virtual"><scope>test_arithmetic::TestArithmetic</scope><name>test_subtract</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

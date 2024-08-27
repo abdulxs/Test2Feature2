@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespacetest__arithmetic" kind="namespace" language="Python">
+    <compoundname>test_arithmetic</compoundname>
+    <innerclass refid="classtest__arithmetic_1_1TestArithmetic" prot="public">test_arithmetic::TestArithmetic</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacetest__arithmetic_1a2adb33591beccc19363b9a8d88a7da56" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>test_arithmetic.lib</definition>
+        <argsstring></argsstring>
+        <name>lib</name>
+        <qualifiedname>test_arithmetic.lib</qualifiedname>
+        <initializer>=  ctypes.CDLL(&apos;./libsimple_program.so&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/test_arithmetic.py" line="5" column="1" bodyfile="test/test_arithmetic.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/test_arithmetic.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>
